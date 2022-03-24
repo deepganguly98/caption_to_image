@@ -1,4 +1,4 @@
-# text2image
+<!-- # text2image
 This repository includes the implementation for [Text to Image Generation with Semantic-Spatial Aware GAN](https://arxiv.org/abs/2104.00567)
 
 This repo is not completely.
@@ -68,4 +68,4 @@ The code is released for academic research use only. For commercial use, please 
 
 ## Acknowledgements
 
-This implementation borrows part of the code from [DF-GAN](https://github.com/tobran/DF-GAN).
+This implementation borrows part of the code from [DF-GAN](https://github.com/tobran/DF-GAN). -->
