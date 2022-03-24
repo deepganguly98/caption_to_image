@@ -9,3 +9,4 @@ scikit-image==0.19.2
 scikit-learn==1.0.2
 easydict==1.9
 nltk==3.6.2
+PyYAML==5.4.1
