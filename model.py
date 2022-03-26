@@ -1,12 +1,4 @@
-# -*- encoding: utf-8 -*-
-'''
-@File        :main.py
-@Date        :2021/04/14 16:05
-@Author      :Wentong Liao, Kai Hu
-@Email       :liao@tnt.uni-hannover.de
-@Version     :0.1
-@Description : Implementation of SSA-GAN
-'''
+
 import torch
 import torch.nn as nn
 import numpy as np
@@ -27,7 +19,7 @@ class NetG(nn.Module):
                                        nn.ReLU(),
                                        nn.Conv2d(100, 1, 1, 1, 0))
 
-        # layer1输入的是一个100x1x1的随机噪声, 输出尺寸(ngf*8)x4x4
+        # layer1 input is a random noise of 100x1x1, output size (ngf*8)x4x4
         self.fc = nn.Linear(nz, ngf * 8 * 4 * 4)
         self.block0 = G_Block(ngf * 8, ngf * 8)  # 4x4
         self.block1 = G_Block(ngf * 8, ngf * 8)  # 8x8

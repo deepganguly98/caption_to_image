@@ -1,10 +1,5 @@
 """
-@File        :main.py
-@Date        :2021/04/14 16:05
-@Author      :Wentong Liao, Kai Hu
-@Email       :liao@tnt.uni-hannover.de
-@Version     :0.1
-@Description : Implementation of SSA-GAN
+
 
 Global attention takes a matrix and a query metrix.
 Based on each query vector q, it computes a parameterized convex combination of the matrix

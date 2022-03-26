@@ -1,12 +1,4 @@
-# -*- encoding: utf-8 -*-
-'''
-@File        :main.py
-@Date        :2021/04/14 16:05
-@Author      :Wentong Liao, Kai Hu
-@Email       :liao@tnt.uni-hannover.de
-@Version     :0.1
-@Description : Implementation of SSA-GAN
-'''
+
 import torch
 import torch.nn as nn
 import torch.nn.parallel
