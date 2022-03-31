@@ -13,3 +13,4 @@ PyYAML==5.4.1
 pandas==1.2.4
 pycparser==2.21
 streamlit==1.7.0
+click==8
