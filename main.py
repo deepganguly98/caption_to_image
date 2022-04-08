@@ -276,7 +276,7 @@ def gen_sample(text_encoder, netG, device, wordtoix, captions):
             im = Image.fromarray(im)
             fullpath = '%s_%d.png' % (s_tmp, step)
             im.save(fullpath)
-    st.snow()
+    # st.snow()
 
 
 def cap2img(ixtoword, caps, cap_lens):
