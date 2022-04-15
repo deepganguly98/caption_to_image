@@ -223,7 +223,7 @@ def gen_sample(text_encoder, netG, device, wordtoix, captions):
     fake_img_save_dir = '%s/%s' % (s_tmp, split_dir)
     mkdir_p(fake_img_save_dir)
 
-    for step in range(20):
+    for step in range(50):
         # st.progress(100)
         hidden = text_encoder.init_hidden(batch_size)
         words_embs, sent_emb = text_encoder(caps, caps_lens, hidden)
